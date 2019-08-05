@@ -1,0 +1,17 @@
+﻿@model SimpleAuctionWebsite.Business.ViewModels.IndexViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Product list</h1>
+</div>
+
+<div class="auction-items-container">
+    @foreach (var item in Model.AuctionItemViewModels)
+    {
+        <a href="@Url.Action("AuctionItemDetails", "Home", new {id = item.Id})">
+            @await Html.PartialAsync("_auctionItem", item)
+        </a>
+    }
+</div>

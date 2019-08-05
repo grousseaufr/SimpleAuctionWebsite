@@ -1,0 +1,12 @@
+﻿@model SimpleAuctionWebsite.Business.ViewModels.BidViewModel
+
+<form method="post" id="form">
+    <input type="hidden" asp-for="AuctionItemId" />
+    @*<input type="text" class="form-control" asp-for="UserName" id="username" placeholder="Username" />
+    <input type="text" class="form-control" asp-for="Password" id="password" placeholder="Password" />*@
+    <input type="text" class="form-control" asp-for="Amount" id="bid-amount" placeholder="Enter amount" required />
+    <input type="submit" id="place-bid-btn" value="Place Bid" />
+</form>
+
+<label id="response-text" class="response-text"></label>
+<label id="bid-count" class="response-text"></label>

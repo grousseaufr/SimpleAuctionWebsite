@@ -1,0 +1,8 @@
+C:\Users\grego\source\repos\SimpleAuctionWebsite\ViewModels\bin\Debug\netstandard2.0\SimpleAuctionWebsite.ViewModels.deps.json
+C:\Users\grego\source\repos\SimpleAuctionWebsite\ViewModels\bin\Debug\netstandard2.0\SimpleAuctionWebsite.ViewModels.dll
+C:\Users\grego\source\repos\SimpleAuctionWebsite\ViewModels\bin\Debug\netstandard2.0\SimpleAuctionWebsite.ViewModels.pdb
+C:\Users\grego\source\repos\SimpleAuctionWebsite\ViewModels\obj\Debug\netstandard2.0\SimpleAuctionWebsite.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\grego\source\repos\SimpleAuctionWebsite\ViewModels\obj\Debug\netstandard2.0\SimpleAuctionWebsite.ViewModels.AssemblyInfoInputs.cache
+C:\Users\grego\source\repos\SimpleAuctionWebsite\ViewModels\obj\Debug\netstandard2.0\SimpleAuctionWebsite.ViewModels.AssemblyInfo.cs
+C:\Users\grego\source\repos\SimpleAuctionWebsite\ViewModels\obj\Debug\netstandard2.0\SimpleAuctionWebsite.ViewModels.dll
+C:\Users\grego\source\repos\SimpleAuctionWebsite\ViewModels\obj\Debug\netstandard2.0\SimpleAuctionWebsite.ViewModels.pdb

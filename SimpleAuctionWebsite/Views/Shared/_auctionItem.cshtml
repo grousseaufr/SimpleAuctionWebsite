@@ -1,0 +1,16 @@
+﻿@using Microsoft.AspNetCore.Mvc.Routing
+@using Microsoft.AspNetCore.Razor.Language.Intermediate
+@model  SimpleAuctionWebsite.Business.ViewModels.AuctionItemViewModel
+
+        <div class="auction-item">
+            <div class="img-wrapper">
+                <img src="@Model.ImageUrl" />
+            </div>
+            <div class="content-wrapper">
+                <label class="item-name">@Html.DisplayFor(d => d.Name)</label>
+                <label>@Html.DisplayFor(d => d.Description)</label>
+                <label>End time : @Html.DisplayFor(d => d.FormattedEndTime)</label>
+                <label>Start price : $@Html.DisplayFor(d => d.StartPrice)</label>
+                <label>Last bid  : @Html.DisplayFor(d => d.LastBidAmount)</label>
+            </div>
+        </div>

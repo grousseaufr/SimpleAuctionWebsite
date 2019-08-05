@@ -1,0 +1,9 @@
+C:\Users\grego\source\repos\SimpleAuctionWebsite\ViewModels\bin\Debug\netstandard2.0\SimpleAuctionWebsite.Business.deps.json
+C:\Users\grego\source\repos\SimpleAuctionWebsite\ViewModels\bin\Debug\netstandard2.0\SimpleAuctionWebsite.Business.dll
+C:\Users\grego\source\repos\SimpleAuctionWebsite\ViewModels\bin\Debug\netstandard2.0\SimpleAuctionWebsite.Business.pdb
+C:\Users\grego\source\repos\SimpleAuctionWebsite\ViewModels\obj\Debug\netstandard2.0\SimpleAuctionWebsite.Business.csprojAssemblyReference.cache
+C:\Users\grego\source\repos\SimpleAuctionWebsite\ViewModels\obj\Debug\netstandard2.0\SimpleAuctionWebsite.Business.csproj.CoreCompileInputs.cache
+C:\Users\grego\source\repos\SimpleAuctionWebsite\ViewModels\obj\Debug\netstandard2.0\SimpleAuctionWebsite.Business.AssemblyInfoInputs.cache
+C:\Users\grego\source\repos\SimpleAuctionWebsite\ViewModels\obj\Debug\netstandard2.0\SimpleAuctionWebsite.Business.AssemblyInfo.cs
+C:\Users\grego\source\repos\SimpleAuctionWebsite\ViewModels\obj\Debug\netstandard2.0\SimpleAuctionWebsite.Business.dll
+C:\Users\grego\source\repos\SimpleAuctionWebsite\ViewModels\obj\Debug\netstandard2.0\SimpleAuctionWebsite.Business.pdb

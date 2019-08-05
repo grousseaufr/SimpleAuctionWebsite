@@ -1,0 +1,29 @@
+﻿@using SimpleAuctionWebsite.Business.ViewModels
+@model SimpleAuctionWebsite.Business.ViewModels.AuctionItemViewModel
+
+@{
+    ViewData["Title"] = "AuctionItemDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Product details</h1>
+
+<a href="/">Back to list</a>
+
+<div class="auction-item">
+    <div class="img-wrapper">
+        <img src="@Model.ImageUrl" />
+    </div>
+    <div class="content-wrapper">
+        <label class="item-name">@Html.DisplayFor(d => d.Name)</label>
+        <label>@Html.DisplayFor(d => d.Description)</label>
+        <label>End time : @Html.DisplayFor(d => d.FormattedEndTime)</label>
+        <label>Start price : $@Html.DisplayFor(d => d.StartPrice)</label>
+        <label id="last-bid">Last bid  : @Html.DisplayFor(d => d.LastBidAmount)</label>
+
+        @await Html.PartialAsync("_bidForm", new BidViewModel
+        {
+            AuctionItemId = Model.Id,
+        })
+    </div>
+</div>
